@@ -1,0 +1,9 @@
+.productScreen {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+    justify-content: center;
+    padding: 30px;
+    gap: 50px;
+    
+}
