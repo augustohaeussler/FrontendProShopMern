@@ -16,7 +16,7 @@ const Header = () => {
 
 
       <NavLink to='/cart' className='link-header-cart'>
-          <i className="fa-solid fa-cart-shopping"></i><div className="header-links-quantity">{cartItems.length === 0 ? '0' : cartItems.length}</div> My Cart:  
+          <i className="fa-solid fa-cart-shopping"></i><div className="header-links-quantity">{cartItems.length === 0 ? '0' : cartItems.length}</div> My Cart  
       </NavLink>
 
     
