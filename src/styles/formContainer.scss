@@ -36,7 +36,10 @@
         margin-bottom: 30px;
         margin-top: 30px;
 
-        & input {
+
+        // INPUTS ACTIVE
+
+        & .formContainer-sectionForm-inputActive {
             color: rgb(90, 90, 90);
             padding: 15px;
             height: 50px;
@@ -48,11 +51,36 @@
                   0.3em 0.3em 1em rgba(0,0,0,0.3);
         }
 
-        & input:focus {
+        & .formContainer-sectionForm-inputActive:focus {
             outline: none;
             background-color: rgb(236, 236, 236);
 
         }
+
+        // INPUTS ERROR 
+
+
+        & .formContainer-sectionForm-inputError {
+            color: rgb(255, 62, 62);
+            padding: 15px;
+            height: 50px;
+            border-radius: 10px;
+            border: none;
+            box-shadow:
+            inset 0 -3em 3em rgba(0,0,0,0.1),
+                  0 0  0 2px rgb(255, 129, 129),
+                  0.3em 0.3em 1em rgba(0,0,0,0.3);
+        }
+
+        & .formContainer-sectionForm-inputError:focus {
+            outline: none;
+            background-color: rgb(236, 236, 236);
+
+        }
+
+    
+
+        ////////////////////////////////
 
         & button {
             margin-top: 20px;

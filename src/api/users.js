@@ -8,4 +8,6 @@ export const postLoginUser = (email, password) => {
     }
     return axios
     .post('api/users/login', {email, password}, config)
+    .then( res => res.data )
+    .catch( err => err.response.data)
 }

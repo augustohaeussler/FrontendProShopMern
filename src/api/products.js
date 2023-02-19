@@ -5,6 +5,7 @@ import axios from "axios";
     .get('/api/products')
     .then( res => res.data )
     .catch( err => console.log(err))
+    
 }
 
 export const getProductsDetails = (id) => {
@@ -14,3 +15,4 @@ export const getProductsDetails = (id) => {
     .catch( err => console.log(err))
    
 }
+
